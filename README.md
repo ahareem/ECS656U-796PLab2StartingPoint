@@ -1,5 +1,13 @@
-# ECS656U-765PLab2StartingPoint
+# ECS656U Coursework - Distributed Systems
 Based upon https://github.com/sajeerzeji/SpringBoot-GRPC
+
+-> The REST interface allows matricies to be uploaded as files
+-> Files can be in any format
+-> The component can accept matricies of arbitrary size but can only accept square matricies, otherwise an error is thrown from the REST interface
+-> REST interface also triggers the matrix multiplication and presents the results
+-> gRPC client code is integrated within REST interface calling the addBlock and multBlock functions on the gRPC server
+
+
 Commands for preparing the enviornment (Assuming you are in the main folder e.g. the one with the pom.xml file in it)
 1. sudo apt update
 2. sudp apt install default-jdk maven
